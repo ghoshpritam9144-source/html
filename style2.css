@@ -1,0 +1,50 @@
+/* div{
+    background-color: blueviolet; 
+    display: inline;
+}
+button{
+    display:block
+} */
+ *{
+    margin: 0px;
+    border: 0px;
+    color: palegreen;
+}
+#navber{
+    background-color: black;
+    height: 60px;
+    border-width: 20px;
+    border-style: solid;
+    border-color:green ;
+
+}
+#p{
+    color: orange;
+}
+
+a{
+margin-right: 200px;
+
+
+}
+button{
+    color: pink;
+    background-color: yellow;
+
+}
+.contentbox{
+
+height: 100px;
+width: 100px;
+border: 2px solid black;
+display:inline-block
+
+}
+#content {
+    height: 780px;
+}
+footer{
+    color:blue;
+    text-decoration: dotted;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    transition-property: all;
+    position: fixed ;
+    top: 5%;
+    left: 8%;
+    animation: animate 3s ease-in 1s 5 ;
+    /* transition-duration: 2s;
+    transition-timing-function: ease-in; */
+    /* transition-timing-function: steps(5); */
+    /* transform: rotate(45deg); */
+    /* transform: scale(2); */
+}
+@keyframes animate{
+    from{ background-color: aquamarine;
+    left: 0px;}
+    to{background-color: red;
+    right: 200px;}
+    
+}
+div:hover{
+    /* background-color: brown;
+    color: white;
+    font-size: 6px; */
+    /* transform: scaleY(2);
+    transform: rotate(45deg);
+    transform: translate(80px,80px); */
+}
+div:active{
+     /* background-color: rgb(171, 116, 116);
+    color: rgb(43, 13, 56); */
+}
+
